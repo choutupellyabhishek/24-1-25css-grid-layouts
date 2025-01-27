@@ -24,53 +24,61 @@
 }
 .item-1{
     grid-area: a;
-    background-color:khaki;
+    background: linear-gradient(blue,green);
 }
 .item-2{
     grid-area: b;
-    background-color:navy;
+    background: linear-gradient(red,green);
+    
 }.item-3{
     grid-area: c;
-    background-color:violet;
+    background: linear-gradient(orange,grey);
+    
 }.item-4{
     grid-area:d ;
-    background-color:seagreen;
+    background: linear-gradient(white,purple);
+    
 }.item-5{
     grid-area: e;
-    background-color:aqua;
+    background: linear-gradient(violet,green);
+    
 }.item-6{
     grid-area: f;
-    background-color:saddlebrown;
+    background: linear-gradient(lightblue,lightpink);
+   
 }.item-7{
     grid-area: g;
-    background-color:dodgerblue;
+    background: linear-gradient(brown,lightgrey);
+    
 }.item-8{
     grid-area: h;
-    background-color:bisque;
+    background: linear-gradient(pink,black);
+   
 }
 .item-9{
     grid-area: i;
-    background-color:hotpink;
+    background: linear-gradient(yellow,chartreuse);
 }
 .item-10{
     grid-area: j;
-    background-color:greenyellow;
+    background: linear-gradient(snow,springgreen);
 }
 .item-11{
     grid-area: k;
-    background-color:lightgreen;
+    background: linear-gradient(silver,slateblue);
 }
 .item-12{
     grid-area: l;
-    background-color:lightcyan;
+    background: linear-gradient(gold,silver);
 }
 .item-13{
     grid-area: m;
-    background-color:lightslategray;
+    background: linear-gradient(plum,palegreen);
 }
 .item-14{
     grid-area: n;
-    background-color:lightcoral;
+    background: linear-gradient(blue,aquamarine);
+    background-color:p;
 }
 
 
@@ -88,9 +96,9 @@
     }
     
 }
-@media screen and (max-width: 200px){
+@media screen and (width <= 450px){
     .grid-container{
-        grid-template-columns: repeat(1fr);
+        grid-template-columns:repeat(1fr);
     grid-template-areas: 'a '
     'b '
     'c '
